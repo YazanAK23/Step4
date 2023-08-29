@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply general styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  /* Header styles */
+  #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; /* Ensure the nav-bar is above other content */
+  }
+  
+  
+  #header-img {
+    width: 100px;
+  }
+  
+  #nav-bar {
+    display: flex;
+  }
+  
+  .nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Video styles */
+  #video {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  /* Form styles */
+  #form {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  #email {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #submit {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+  }
+  
+  /* Flexbox example */
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  
